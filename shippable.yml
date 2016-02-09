@@ -16,6 +16,7 @@ build:
 
   ci:
     # We can add sanity checks to ensure the image was built successfully here
+    - . /usr/local/rvm/scripts/rvm
     - rvm ls
     - rvm use jruby-1.7.19
     - rvm use jruby-9.0.0
